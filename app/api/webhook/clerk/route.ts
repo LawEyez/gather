@@ -47,7 +47,7 @@ export async function POST(req: Request) {
   }
 
   // Get the ID and type
-  const { id } = evt.data
+  // const { id } = evt.data
   const eventType = evt.type
 
   // On user create.
